@@ -9,6 +9,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Museum Online Javascript</h1>
+    <h1 id="kopje">Museum Online Javascript</h1>
+    <p id="mkBlauw">maak achtergrond blauw</p>
+    <p id="verwijder">verwijder alles</p>
+
+    <script>
+        const kopje = document.getElementById("kopje")
+        const mkBlauw = document.getElementById('mkBlauw');
+        const verwijder = document.getElementById('verwijder')
+
+        kopje.style.backgroundColor = "red";
+
+        kopje.addEventListener('click', voeruitKopje);
+        mkBlauw.addEventListener('click',voeruitBlauw);
+        verwijder.addEventListener('click', deleteAll)
+
+        function voeruitKopje(){
+            kopje.style.backgroundColor = "pink";
+            kopje.style.color = "black";
+        }
+
+
+        function voeruitBlauw(){
+            document.body.style.backgroundColor = "blue";
+            document.body.style.color = "white";
+            kopje.style.backgroundColor = "white";
+            kopje.style.color = "black"
+        }
+
+        function deleteAll(){
+            document.body.style.backgroundColor = "white";
+            document.body.style.color = "white";
+            kopje.style.backgroundColor = "white";
+            kopje.style.color = "white"
+
+        }
+    </script>
 </body>
 </html>
