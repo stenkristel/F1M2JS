@@ -1,4 +1,4 @@
 # Fase 1 module 2 museum Online
 ## Javascript
 
-(Live view)[https://32977.hosts1.ma-cloud.nl/F1M2JS/]
+(Live view)[http://127.0.0.1:5500/web/les2-boodschappen/]
