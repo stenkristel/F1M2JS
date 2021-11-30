@@ -12,17 +12,30 @@
     <h1 id="kopje">Museum Online Javascript</h1>
     <p id="mkBlauw">maak achtergrond blauw</p>
     <p id="verwijder">verwijder alles</p>
+    <p id="roze">maak achtergrond roze</p>
+    <p id="rood">maak text rood</p>
+    <p id="groen">maak achtergrond groen</p>
+    <p id="geel">maak alles geel</p>
+
 
     <script>
         const kopje = document.getElementById("kopje")
         const mkBlauw = document.getElementById('mkBlauw');
         const verwijder = document.getElementById('verwijder')
+        const roze = document.getElementById('roze')
+        const rood = document.getElementById('rood')
+        const groen = document.getElementById('groen')
+        const geel = document.getElementById('geel')
 
         kopje.style.backgroundColor = "red";
 
         kopje.addEventListener('click', voeruitKopje);
         mkBlauw.addEventListener('click',voeruitBlauw);
-        verwijder.addEventListener('click', deleteAll)
+        verwijder.addEventListener('click', deleteAll);
+        roze.addEventListener('click', pink);
+        rood.addEventListener('click', red);
+        groen.addEventListener('click', green);
+        geel.addEventListener('click', yellow);
 
         function voeruitKopje(){
             kopje.style.backgroundColor = "pink";
@@ -42,6 +55,23 @@
             kopje.style.backgroundColor = "white";
             kopje.style.color = "white"
 
+        }
+
+        function pink(){
+            document.body.style.backgroundColor = "pink";
+        }
+
+        function red(){
+            document.body.style.color = "red";
+        }
+
+        function green(){
+            document.body.style.backgroundColor = "green";
+        }
+
+        function yellow(){
+            document.body.style.backgroundColor = "yellow"
+            document.body.style.color = "yellow"
         }
     </script>
 </body>
