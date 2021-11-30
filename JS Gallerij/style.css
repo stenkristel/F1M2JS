@@ -1,0 +1,15 @@
+body{
+    padding: 5px;
+    margin: 5px;
+}
+
+.button{
+    background-color: cyan;
+    padding: 5px;
+    margin: 5px;
+    width: 145px;
+    color: white;
+}
+.button:hover{
+    background-color: darkcyan;
+}
