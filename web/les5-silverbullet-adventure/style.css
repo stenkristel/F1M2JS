@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(8, 49, 49);
+}
+
+#container{
+    color: aliceblue;
+    background-color: rgb(3, 4, 49);
+    width: 900px;
+    height: 600px;
+    margin: 50px auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#myInteraction{
+    padding: 5%;
+}
