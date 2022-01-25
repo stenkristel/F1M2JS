@@ -4,21 +4,55 @@ const myInput = document.getElementById("myInput")
 
 let lokaties =[
     {
-        "titel":"Mier rood zwart",
-        "image":"img/ant0.jpg"
+        "titel":"positie 0",
+        "image":"img/0.jpg"
     },
     {
-        "titel":"2 verschillende mieren",
-        "image":"img/ant1.jpg"
+        "titel":"positie 1",
+        "image":"img/1.jpg"
     },
     {
-        "titel":"Mier close up",
-        "image":"img/ant2.jpg"
+        "titel":"positie 2",
+        "image":"img/2.jpg"
     },
     {
-        "titel":"mier gevecht",
-        "image":"img/ant3.jpg"
+        "titel":"positie 3",
+        "image":"img/3.jpg"
     },
+    {
+        "titel":"positie 4",
+        "image":"img/4.jpg"
+    },
+    {
+        "titel":"positie 5",
+        "image":"img/5.jpg"
+    },
+    {
+        "titel":"positie 6",
+        "image":"img/6.jpg"
+    },
+    {
+        "titel":"positie 7",
+        "image":"img/7.jpg"
+    },
+    {
+        "titel":"positie 8",
+        "image":"img/8.jpg"
+    },
+    {
+        "titel":"positie 9",
+        "image":"img/9.jpg"
+    },
+    {
+        "titel":"positie 10",
+        "image":"img/10.jpg"
+    },
+    {
+        "titel":"positie 11",
+        "image":"img/11.jpg"
+    }
+
+
 ]
 //myTitle.innerHTML = "dit is door het script toegevoegd";
 //myImage.src = "img/1.jpg";
